@@ -3,10 +3,9 @@ import Container from "../common/Container";
 
 const Home = () => {
   return (
-    <Container style= {{
-       backgroundColor: "gray"
-    }}>
-      <h1>Welcome to Rest Vehical Rental</h1>
+    <Container>
+      <h1>Expressian Rentals</h1>
+      <h2>gently used eastern european vehicles</h2>
     </Container>
   );
 };
