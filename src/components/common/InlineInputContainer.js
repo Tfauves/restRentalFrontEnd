@@ -21,6 +21,7 @@ const styles = {
     borderRadius: 5,
     overflow: "hidden",
     flexWrap: "wrap",
+
   },
   error: {
     color: "red",
