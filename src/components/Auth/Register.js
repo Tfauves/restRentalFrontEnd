@@ -17,7 +17,7 @@ const Register = (props) => {
         fName: "",
         lName: ""
     })
-    const navigate = useNavigate;
+    const navigate = useNavigate();
 
     const updateForm = (field, value) => {
         setNewUser({
@@ -57,24 +57,21 @@ const Register = (props) => {
     const createCustomer = async (data, token) => {
       try {
         const res = await axios.post(
-          //destionation
           `${apiHostUrl}/api/customers`, 
-          //body
           data, 
           {
-            //options
             headers: {
-              //key              //value
-              Authorization: `Bearer ${token}`
+              "Authorization": `Bearer ${token}`
             }
           }
-          );
-          console.log(res.data);
-          navigate('/login');
-      } catch(err) {
-        console.error(err.response.data)
+        );
+        console.log(res.data);
+        navigate('/login');
+      } catch (err) {
+        console.error(err.message);
       }
     }
+  
 
   return (
     <Container>
