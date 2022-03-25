@@ -20,20 +20,20 @@ const LoginForm = (props) => {
         name="username"
          id="username"
          placeholder="Email"
-         type="email"
          onChange={handleChange}
          value={newLogin.username}
          required
+         type="email"
         />
         </InlineInputContainer>
         <InlineInputContainer>
           <Input
             id="password"
             placeholder="Password"
-            type="password"
             onChange={handleChange}
             value={newLogin.password}
             required
+            type="password"
           />
         </InlineInputContainer>
         <Button>Submit</Button>
