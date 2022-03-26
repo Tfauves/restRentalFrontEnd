@@ -50,16 +50,14 @@ const Login = (props) => {
     <Container>
       <Splash
         image={regSplash}
-        style={{
-          height: "20vh",
-          color: "#f1f1f1",
-        }}>
-        <h1>Login</h1>
+        style={{height: "25vh",}}>
+        <h1 style={{marginBottom: "25px", fontSize: "3em", textShadow: '0 0 6px #303030, 0 0 5px #303030', color: "#f1f1f1"}}>Login</h1>
       </Splash>
      <LoginForm
       newLogin= {newLogin}
       onChange={updateForm}
       onSubmit={onSubmit}
+
       />
     </Container>
   );
