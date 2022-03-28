@@ -20,7 +20,7 @@ const Navbar = (props) => {
       >
         <h1
           style={{
-            fontFamily: "monospace",
+            fontFamily: "Roboto Condensed, sans-serif",
             fontWeight: 900,
             fontSize: "2.5em",
             margin: "20px",
