@@ -30,6 +30,7 @@ const LoginForm = (props) => {
           <Input
             id="password"
             placeholder="Password"
+
             onChange={handleChange}
             value={newLogin.password}
             required
