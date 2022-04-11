@@ -4,7 +4,6 @@ import Splash from "../common/Splash";
 import splashImg from "../../assets/splash.png";
 import {AuthContext} from "../Providers/AuthProvider";
 
-
 const Home = () => {
   const [auth] = useContext(AuthContext);
   return (
